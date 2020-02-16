@@ -117,3 +117,7 @@ export {
   // FaMicrophoneAlt,
   FaRegListAlt,
 } from "react-icons/fa"
+
+export { 
+  GiSwordwoman
+} from "react-icons/go"

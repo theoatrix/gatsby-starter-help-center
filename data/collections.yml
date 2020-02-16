@@ -33,13 +33,13 @@
 - id: item-database
   title: Item Database
   description: Everything the Free Help Center offers out of the box
-  icon: "FaSword"
+  icon: "GiSwordwoman" 
   sections:
-    - id: features
+    - id: features2
       title: Features
       articles:
         - file: ../content/features/index.md
-    - id: nonfeatures
+    - id: nonfeatures2
       title: Non-Features
       articles:
         - file: ../content/comparison-to-saas/index.md
