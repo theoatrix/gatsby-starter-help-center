@@ -21,7 +21,7 @@ const Logo = props => (
           d="M5.30434783,68.4909091 L238.695652,68.4909091"
           id="Line"
           stroke={props.color}
-          strokeWidth="6.36"
+          strokeWidth="9.36"
           strokeLinecap="square"
         ></path>
         <rect

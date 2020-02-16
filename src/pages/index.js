@@ -33,7 +33,7 @@ class HelpCenterIndex extends React.Component {
           const icon = node.icon
             ? jsx(
                 icons[node.icon],
-                { sx: { color: "iconColor" }, size: "2rem" },
+                { sx: { color: "iconColor" }, size: "2.5rem", },
                 null
               )
             : null
@@ -101,7 +101,8 @@ class HelpCenterIndex extends React.Component {
                         mt: 0,
                         mb: 2,
                         color: "#BB0000",
-                        fontWeight: 600
+                        fontWeight: 600,
+                        
                       }}
                     >
                       {node.title}
@@ -110,6 +111,8 @@ class HelpCenterIndex extends React.Component {
                   <section
                     sx={{
                       color: "paperDescriptionColor",
+                      
+                    
                     }}
                   >
                     {node.description}

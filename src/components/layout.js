@@ -234,13 +234,15 @@ class Layout extends React.Component {
                 maxWidth: rhythm(30),
                 fontSize: 3,
                 px: [2, 4],
-                pt: 4,
+                pt: 2,
                 pb: 2,
               }}
             >
-              <Logo color="white" size={["36px", "48px"]} />
-              <p sx={{ pt: 2, pb: 2, mb: 2, mt: 2, fontSize: [2, 3] }}>
-                {description}
+              
+              <p sx={{ pt: 2, pb: 2, mb: 3, mt: 2, fontSize: [4, 5],  alignItems: "center",
+                      textAlign: "center", }}>
+                        <Logo color="white" size={["36px", "48px"]} padding="50" /> <br></br><br></br>
+                {description} <p sx={{  fontSize: [2, 3],}}>OldSchool RuneScape Hub</p>
               </p>
               <SearchInput />
             </header>

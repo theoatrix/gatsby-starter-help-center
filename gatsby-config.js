@@ -1,20 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: `Free Help Center`,
-    author: `Dominik Ferber`,
+    title: `Theoatrix.Net`,
+    author: `Theoatrix`,
     // You'd normally use a description like
     // "Advice and answers by the MyCompany-Team"
-    description: `Get a free self-hosted Help Center like this one`,
+    description: `Theoatrix.Net`,
     siteUrl: `https://help.dferber.de/`,
     language: "en",
     texts: {
       allCollectionsText: "All Collections",
-      searchPlaceholderText: "Search for answers…",
+      searchPlaceholderText: "Search anything osrs…",
       lastModifiedText: "Last edited",
       publishedOnText: "Published on",
       writtenByText: "Written by",
       articlesInCollectionZeroText: "articles in this collection",
-      articlesInCollectionOneText: "article in this collection",
+      articlesInCollectionOneText: "page in this category",
       articlesInCollectionTwoText: "articles in this collection",
       articlesInCollectionMultipleText: "articles in this collection",
     },
