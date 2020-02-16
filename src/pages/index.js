@@ -100,7 +100,8 @@ class HelpCenterIndex extends React.Component {
                       sx={{
                         mt: 0,
                         mb: 2,
-                        color: "inherit",
+                        color: "#BB0000",
+                        fontWeight: 600
                       }}
                     >
                       {node.title}

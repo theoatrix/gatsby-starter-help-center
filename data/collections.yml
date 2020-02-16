@@ -29,8 +29,38 @@
   articles:
     - file: ../content/welcome/index.md
 
+    
+- id: item-database2
+  title: Skills
+  description: 1-99 Guides and Calculators
+  icon: "GiSwordwoman" 
+  sections:
+    - id: features2
+      title: Features
+      articles:
+        - file: ../content/features/index.md
+    - id: nonfeatures2
+      title: Non-Features 
+      articles:
+        - file: ../content/comparison-to-saas/index.md
 
-- id: item-database
+- id: grand-exchange
+  title: Grand Exchange
+  description: Everything the Free Help Center offers out of the box
+  icon: "GiTwoCoins" 
+  sections:
+    - id: features2
+      title: Features
+      articles:
+        - file: ../content/features/index.md
+    - id: nonfeatures2
+      title: Non-Features
+      articles:
+        - file: ../content/comparison-to-saas/index.md
+
+
+
+- id: item-database 
   title: Item Database
   description: Everything the Free Help Center offers out of the box
   icon: "GiSwordwoman" 
@@ -44,10 +74,12 @@
       articles:
         - file: ../content/comparison-to-saas/index.md
 
+
+
 - id: features-and-nonfeatures
-  title: Features and Non-Features
+  title: Monster Database
   description: Everything the Free Help Center offers out of the box
-  icon: "FaBox"
+  icon: "GiAlienBug"
   sections:
     - id: features
       title: Features

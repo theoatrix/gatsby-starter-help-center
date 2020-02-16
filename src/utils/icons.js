@@ -119,5 +119,7 @@ export {
 } from "react-icons/fa"
 
 export { 
-  GiSwordwoman
-} from "react-icons/go"
+  GiSwordwoman,
+  GiTwoCoins,
+  GiAlienBug
+} from "react-icons/gi"

@@ -1,7 +1,7 @@
 export default {
   colors: {
     text: "#333",
-    headerBackground: "#607d8b",
+    headerBackground: "#BB0000",
     headerText: "white",
     paperBackgroundColor: "white",
     paperHoverBackgroundColor: "#fcfcfc",
@@ -18,8 +18,8 @@ export default {
     articleTextColor: "#565867",
     articleDescriptionColor: "#8F919D",
     background: "#fff",
-    primary: "#639",
-    secondary: "#ff6347",
+    primary: "#FFE800",
+    secondary: "#FFE800",
     muted: "#8f919d",
     searchTextColor: "rgba(255,255,255,0.7)",
     searchTextFocusColor: "#3a3c4c",
