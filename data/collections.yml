@@ -29,6 +29,21 @@
   articles:
     - file: ../content/welcome/index.md
 
+
+- id: item-database
+  title: Item Database
+  description: Everything the Free Help Center offers out of the box
+  icon: "FaSword"
+  sections:
+    - id: features
+      title: Features
+      articles:
+        - file: ../content/features/index.md
+    - id: nonfeatures
+      title: Non-Features
+      articles:
+        - file: ../content/comparison-to-saas/index.md
+
 - id: features-and-nonfeatures
   title: Features and Non-Features
   description: Everything the Free Help Center offers out of the box
