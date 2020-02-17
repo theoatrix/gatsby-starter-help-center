@@ -9,7 +9,7 @@ module.exports = {
     language: "en",
     texts: {
       allCollectionsText: "All Collections",
-      searchPlaceholderText: "Search anything osrs…",
+      searchPlaceholderText: "Search for anything in osrs…",
       lastModifiedText: "Last edited",
       publishedOnText: "Published on",
       writtenByText: "Written by",

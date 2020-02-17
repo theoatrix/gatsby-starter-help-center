@@ -241,8 +241,8 @@ class Layout extends React.Component {
               
               <p sx={{ pt: 2, pb: 2, mb: 3, mt: 2, fontSize: [4, 5],  alignItems: "center",
                       textAlign: "center", }}>
-                        <Logo color="white" size={["36px", "48px"]} padding="50" /> <br></br><br></br>
-                {description} <p sx={{  fontSize: [2, 3],}}>OldSchool RuneScape Hub</p>
+                        <Logo color="white" size={["36px", "48px"]} padding="50" /><br></br>
+                {description} <p sx={{  fontSize: [2, 3],  textAlign: "center",}}>OldSchool RuneScape Hub</p>
               </p>
               <SearchInput />
             </header>
