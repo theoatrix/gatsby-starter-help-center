@@ -36,6 +36,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: "keyL6FyKZvTzTdNIj", // specify via env
+        tables: [
+          {
+            baseId: "app0wJ3LqwzOtM7Tu", // specify via env
+            tableName: "CLUES", // specify via env
+            
+            mapping: { postMarkdown: `text/markdown` },
+          }
+          
+        ]
+      } 
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/data`,
