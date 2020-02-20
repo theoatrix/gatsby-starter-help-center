@@ -8,6 +8,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const articlePage = require.resolve(`./src/templates/article.js`)
   const collectionPage = require.resolve(`./src/templates/collection.js`)
   const postPage = path.resolve("./src/templates/post.js");
+ 
   const result = await graphql(
     `
       {
@@ -39,6 +40,17 @@ exports.createPages = async ({ graphql, actions }) => {
               fields {
                 slug
               }
+            }
+          }
+        }
+        allAirtable(filter: {table: {eq: "CLUES"} }) {
+          edges {
+            node {
+              id
+              data {
+                ClueScroll
+              }
+              
             }
           }
         }
@@ -79,38 +91,23 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     })
   })
-  const result2 = await graphql(`
-  {
-    allAirtable(filter: {table: {eq: "CLUES"}}) {
-      edges {
-        node {
-          data {
-            ClueScroll
-          }
-        }
-      }
-    }
-  }
-  `)
-  if (result2.errors) {
-    throw result2.errors
-  }
   
-  const clues = result2.data.allAirtable.edges;
+  
+  const clues = result.data.allAirtable.edges;
   clues.forEach((post, index) => {
-    const slug = post.node.data.ClueScroll
+    const slug = String(post.node.data.ClueScroll)
 
     createPage({
       path: slug,
       component: postPage, 
       context: {
         slug,
-      },
+      }, 
     })
   })
 
 
-
+  
 
 
 
@@ -141,6 +138,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `slug`,
       node,
       value: "/collections/" + slug(node.id),
+    })
+  } else {
+    actions.createNodeField({
+      name: `slug`,
+      node,
+      value: "/clue-scrolls/" + slug(node.id),
     })
   }
 }

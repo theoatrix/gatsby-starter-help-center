@@ -236,7 +236,7 @@ class Layout extends React.Component {
                 px: [2, 4],
                 pt: 2,
                 pb: 2,
-              }}
+              }} 
             >
               
               <p sx={{ pt: 2, pb: 2, mb: 3, mt: 2, fontSize: [4, 5],  alignItems: "center",

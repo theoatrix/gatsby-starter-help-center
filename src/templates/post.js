@@ -9,12 +9,18 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-class PostsTemplate extends React.Component {
+class PostTemplate extends React.Component {
+  
   render() {
+    var article = this.props.data
     return (
-      <Layout>
-      <div>Hello world</div>
-    </Layout>
+      
+      
+        <div>
+        
+        {article.airtable.data.ClueScroll}<br></br>
+        Hello +"article"+world</div>
+       
     )
     /* const article = this.props.data.article
     const siteTitle = this.props.data.site.siteMetadata.title
