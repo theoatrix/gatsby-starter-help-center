@@ -30,7 +30,7 @@
     "gatsby-remark-smartypants": "^2.1.21",
     "gatsby-source-airtable": "^2.0.12",
     "gatsby-source-filesystem": "^2.1.48",
-    "gatsby-transformer-remark": "^2.6.51",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.3.14",
     "gatsby-transformer-yaml": "2.2.25",
     "prismjs": "^1.19.0",
